@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3279DFA191A9A4763413D680 /* Pods_BinMinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F709B9208FBB9A89BCB2DC28 /* Pods_BinMinder.framework */; };
 		CA17501A1F51BAB900846EC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1750191F51BAB900846EC6 /* AppDelegate.swift */; };
 		CA17501C1F51BAB900846EC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA17501B1F51BAB900846EC6 /* ViewController.swift */; };
 		CA17501F1F51BAB900846EC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA17501D1F51BAB900846EC6 /* Main.storyboard */; };
@@ -14,6 +15,11 @@
 		CA1750241F51BAB900846EC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA1750221F51BAB900846EC6 /* LaunchScreen.storyboard */; };
 		CA17502F1F51BAB900846EC6 /* BinMinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA17502E1F51BAB900846EC6 /* BinMinderTests.swift */; };
 		CA17503A1F51BAB900846EC6 /* BinMinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1750391F51BAB900846EC6 /* BinMinderUITests.swift */; };
+		CA21C1471F72A44800DBAA52 /* BinResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA21C1461F72A44800DBAA52 /* BinResponse.swift */; };
+		CA21C14D1F73BAF600DBAA52 /* BinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA21C14C1F73BAF600DBAA52 /* BinViewController.swift */; };
+		CA3A5C541F75626E004AD095 /* BinDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3A5C531F75626E004AD095 /* BinDate.swift */; };
+		CA3A5C571F7573D7004AD095 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA3A5C551F7573D7004AD095 /* Model.xcdatamodeld */; };
+		CA3A5C961F795FD4004AD095 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3A5C951F795FD4004AD095 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4FB301780BD1AD0CFC8B5A6A /* Pods-BinMinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BinMinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-BinMinder/Pods-BinMinder.release.xcconfig"; sourceTree = "<group>"; };
 		CA1750161F51BAB900846EC6 /* BinMinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BinMinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA1750191F51BAB900846EC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA17501B1F51BAB900846EC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,13 @@
 		CA1750351F51BAB900846EC6 /* BinMinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinMinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA1750391F51BAB900846EC6 /* BinMinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinMinderUITests.swift; sourceTree = "<group>"; };
 		CA17503B1F51BAB900846EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA21C1461F72A44800DBAA52 /* BinResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinResponse.swift; sourceTree = "<group>"; };
+		CA21C14C1F73BAF600DBAA52 /* BinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinViewController.swift; sourceTree = "<group>"; };
+		CA3A5C531F75626E004AD095 /* BinDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinDate.swift; sourceTree = "<group>"; };
+		CA3A5C561F7573D7004AD095 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		CA3A5C951F795FD4004AD095 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F709B9208FBB9A89BCB2DC28 /* Pods_BinMinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BinMinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1EAD8D354E61AC625A1681 /* Pods-BinMinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BinMinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BinMinder/Pods-BinMinder.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA3A5C961F795FD4004AD095 /* CoreData.framework in Frameworks */,
+				3279DFA191A9A4763413D680 /* Pods_BinMinder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +90,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7CA7CD309F643848DB2F9CCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA3A5C951F795FD4004AD095 /* CoreData.framework */,
+				F709B9208FBB9A89BCB2DC28 /* Pods_BinMinder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE76CB9C36799770AF849818 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE1EAD8D354E61AC625A1681 /* Pods-BinMinder.debug.xcconfig */,
+				4FB301780BD1AD0CFC8B5A6A /* Pods-BinMinder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CA17500D1F51BAB900846EC6 = {
 			isa = PBXGroup;
 			children = (
+				CA3A5C551F7573D7004AD095 /* Model.xcdatamodeld */,
 				CA1750181F51BAB900846EC6 /* BinMinder */,
 				CA17502D1F51BAB900846EC6 /* BinMinderTests */,
 				CA1750381F51BAB900846EC6 /* BinMinderUITests */,
 				CA1750171F51BAB900846EC6 /* Products */,
+				AE76CB9C36799770AF849818 /* Pods */,
+				7CA7CD309F643848DB2F9CCD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +136,13 @@
 			children = (
 				CA1750191F51BAB900846EC6 /* AppDelegate.swift */,
 				CA17501B1F51BAB900846EC6 /* ViewController.swift */,
+				CA21C1461F72A44800DBAA52 /* BinResponse.swift */,
 				CA17501D1F51BAB900846EC6 /* Main.storyboard */,
 				CA1750201F51BAB900846EC6 /* Assets.xcassets */,
 				CA1750221F51BAB900846EC6 /* LaunchScreen.storyboard */,
 				CA1750251F51BAB900846EC6 /* Info.plist */,
+				CA21C14C1F73BAF600DBAA52 /* BinViewController.swift */,
+				CA3A5C531F75626E004AD095 /* BinDate.swift */,
 			);
 			path = BinMinder;
 			sourceTree = "<group>";
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA17503E1F51BAB900846EC6 /* Build configuration list for PBXNativeTarget "BinMinder" */;
 			buildPhases = (
+				7F13EB8CF68663566CEF51BD /* [CP] Check Pods Manifest.lock */,
 				CA1750121F51BAB900846EC6 /* Sources */,
 				CA1750131F51BAB900846EC6 /* Frameworks */,
 				CA1750141F51BAB900846EC6 /* Resources */,
+				635F4A2FC28C9CF9CC4385BC /* [CP] Embed Pods Frameworks */,
+				87A398CFED3ADB6073087E31 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +236,7 @@
 				TargetAttributes = {
 					CA1750151F51BAB900846EC6 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZDT68RWMWJ;
 						ProvisioningStyle = Automatic;
 					};
 					CA1750291F51BAB900846EC6 = {
@@ -254,13 +298,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		635F4A2FC28C9CF9CC4385BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BinMinder/Pods-BinMinder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BinMinder/Pods-BinMinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F13EB8CF68663566CEF51BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BinMinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87A398CFED3ADB6073087E31 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BinMinder/Pods-BinMinder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CA1750121F51BAB900846EC6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA21C14D1F73BAF600DBAA52 /* BinViewController.swift in Sources */,
+				CA3A5C541F75626E004AD095 /* BinDate.swift in Sources */,
 				CA17501C1F51BAB900846EC6 /* ViewController.swift in Sources */,
 				CA17501A1F51BAB900846EC6 /* AppDelegate.swift in Sources */,
+				CA21C1471F72A44800DBAA52 /* BinResponse.swift in Sources */,
+				CA3A5C571F7573D7004AD095 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,8 +514,10 @@
 		};
 		CA17503F1F51BAB900846EC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE1EAD8D354E61AC625A1681 /* Pods-BinMinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZDT68RWMWJ;
 				INFOPLIST_FILE = BinMinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "el-zebdeh.yousef.BinMinder";
@@ -424,8 +528,10 @@
 		};
 		CA1750401F51BAB900846EC6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FB301780BD1AD0CFC8B5A6A /* Pods-BinMinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZDT68RWMWJ;
 				INFOPLIST_FILE = BinMinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "el-zebdeh.yousef.BinMinder";
@@ -507,6 +613,7 @@
 				CA1750401F51BAB900846EC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA1750411F51BAB900846EC6 /* Build configuration list for PBXNativeTarget "BinMinderTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +622,7 @@
 				CA1750431F51BAB900846EC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA1750441F51BAB900846EC6 /* Build configuration list for PBXNativeTarget "BinMinderUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,8 +631,22 @@
 				CA1750461F51BAB900846EC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CA3A5C551F7573D7004AD095 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CA3A5C561F7573D7004AD095 /* Model.xcdatamodel */,
+			);
+			currentVersion = CA3A5C561F7573D7004AD095 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CA17500E1F51BAB900846EC6 /* Project object */;
 }
